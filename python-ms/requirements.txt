@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+psycopg[binary]
+langchain>=0.0.300
+openai
+python-dateutil
+httpx
