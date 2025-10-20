@@ -6,9 +6,6 @@ This archive contains a minimal, runnable scaffold for an appointment-scheduling
 - Python Microservice: FastAPI (+ LangChain placeholders)
 - Database schema: PostgreSQL SQL file
 
-IMPORTANT:
-- Fill in secrets in `.env` files before running.
-- This is a developer scaffold. Adjust versions and install deps locally.
 
 ## Quick start (example)
 1. Start PostgreSQL and create database `appt_chatbot`.
@@ -17,7 +14,7 @@ IMPORTANT:
 Backend:
 - cd backend
 - npm install
-- create .env (see .env.example)
+- create .env git
 - npm run dev
 
 Python microservice:
